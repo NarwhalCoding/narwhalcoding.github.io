@@ -1,0 +1,60 @@
+html, body {
+  height: 100%;
+}
+body {
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+body, h1, h2, h3, h4, h5, h6 {
+
+}
+a, a:visited {
+  color: #a14b9e;
+}
+
+/* Navbar */
+
+.navbar {
+  margin-bottom: 0;
+}
+.navbar img {
+  max-height: 75px;
+}
+.navbar-inverse {
+	background-color: #a14b9e;
+  border-color: #a14b9e;
+  border-radius: 0;
+}
+.navbar-inverse .navbar-brand {
+  color: #fff;
+}
+
+/* jumbotron */
+
+.jumbotron {
+  color: #fff;
+  background: #000;
+  background-image: url("../img/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+/* buttons */
+
+a.btn-primary {
+  background: #a14b9e;
+  color: #fff;
+  border-color: #a14b9e;
+}
+
+/* Footer */
+
+.footer {
+}
+.footer a, .footer a:visited, .footer {
+	color: #000000;
+}
