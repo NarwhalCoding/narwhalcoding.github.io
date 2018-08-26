@@ -32,18 +32,23 @@ a, a:visited {
 /* jumbotron */
 
 .jumbotron {
-  color: #fff;
+  color: #000;
   background: #000;
-  background-image: url("../img/hero.png");
+  background-image: url("../img/nar-min.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 100%;
 }
+.jumbotron-inner {
+  background: rgba(255, 255, 255, .659999999999);
+  border-radius: 5px;
+  padding: 20px;
+}
 
 /* buttons */
 
-a.btn-primary {
+a.btn-primary, .btn  {
   background: #a14b9e;
   color: #fff;
   border-color: #a14b9e;
