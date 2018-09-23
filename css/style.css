@@ -8,6 +8,9 @@ img {
 body, h1, h2, h3, h4, h5, h6, p, label, div {
   font-family: 'VT323', monospace;
 }
+p, li {
+  font-size: 18px;
+}
 a, a:visited {
   color: #a14b9e;
 }
@@ -56,8 +59,11 @@ a.btn-primary, .btn  {
 
 /* Footer */
 
-.footer {
+footer {
+  background: #a14b9e;
+  padding-top: 20px;
+  margin-top: 20px;
 }
-.footer a, .footer a:visited, .footer {
-	color: #000000;
+footer a, footer a:visited, footer {
+	color: #fff;
 }
