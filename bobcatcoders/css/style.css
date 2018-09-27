@@ -1,0 +1,66 @@
+html, body {
+  height: 100%;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+body, h1, h2, h3, h4, h5, h6, p, label, div {
+  font-family: 'Comfortaa', cursive;
+}
+p, li {
+  font-size: 18px;
+}
+a, a:visited {
+  color: #4B00FF;
+}
+
+/* Navbar */
+
+.navbar {
+  margin-bottom: 0;
+}
+.navbar img {
+  max-height: 75px;
+}
+.navbar-inverse {
+	background-color: #F2F800;
+  border-color: #F2F800;
+  border-radius: 0;
+}
+.navbar-inverse .navbar-brand {
+  color: #fff;
+}
+
+/* jumbotron */
+
+.jumbotron {
+  color: #000;
+  background: #000;
+  background-image: url("../img/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+.jumbotron-inner {
+  background: rgba(255, 255, 255, .659999999999);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+/* buttons */
+
+a.btn-primary, .btn  {
+  background: #4B00FF;
+  color: #fff;
+  border-color: #4B00FF;
+}
+
+/* Footer */
+
+footer {
+  background: #F2F800;
+  padding: 20px 0;
+  margin-top: 20px;
+}
