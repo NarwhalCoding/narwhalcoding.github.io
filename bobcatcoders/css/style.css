@@ -37,7 +37,7 @@ a, a:visited {
 .jumbotron {
   color: #000;
   background: #000;
-  background-image: url("../img/hero.png");
+  background-image: url("../img/hero-min.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
