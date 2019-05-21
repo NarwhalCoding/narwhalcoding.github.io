@@ -8,11 +8,14 @@ img {
 body, h1, h2, h3, h4, h5, h6, p, label, div {
   font-family: 'VT323', monospace;
 }
-p, li {
-  font-size: 18px;
+p, li, label {
+  font-size: 20px;
 }
-a, a:visited {
+a, a:visited, a:hover {
   color: #a14b9e;
+}
+p.lead {
+  font-size: 26px;
 }
 
 /* Navbar */
@@ -37,7 +40,7 @@ a, a:visited {
 .jumbotron {
   color: #000;
   background: #000;
-  background-image: url("../img/nar-min.jpg");
+  background-image: url("../img/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -51,7 +54,7 @@ a, a:visited {
 
 /* buttons */
 
-a.btn-primary, .btn  {
+a.btn-primary, .btn, .btn:hover {
   background: #a14b9e;
   color: #fff;
   border-color: #a14b9e;
@@ -64,6 +67,6 @@ footer {
   padding-top: 20px;
   margin-top: 20px;
 }
-footer a, footer a:visited, footer {
+footer a, footer a:visited, footer a:hover, footer {
 	color: #fff;
 }
