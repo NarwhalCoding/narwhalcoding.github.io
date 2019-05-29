@@ -64,9 +64,15 @@ a.btn-primary, .btn, .btn:hover {
 
 footer {
   background: #a14b9e;
-  padding-top: 20px;
+  padding-top: 30px;
   margin-top: 20px;
+  padding-bottom: 10px;
 }
 footer a, footer a:visited, footer a:hover, footer {
 	color: #fff;
+}
+footer .fab {
+  font-size: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
