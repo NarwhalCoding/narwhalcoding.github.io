@@ -1,5 +1,6 @@
 html, body {
   height: 100%;
+  font-family: 'Open Sans', sans-serif;
 }
 img {
 	max-width: 100%;
@@ -10,12 +11,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 p, li, label {
   font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
 }
 a, a:visited, a:hover {
   color: #a14b9e;
+  font-weight: bold;
 }
 p.lead {
   font-size: 26px;
+}
+h1 {
+  font-size: 70px;
+}
+h2 {
+  font-size: 40px;
+}
+hr {
+  padding: 15px 0;
 }
 
 /* Navbar */
@@ -40,7 +52,7 @@ p.lead {
 .jumbotron {
   color: #000;
   background: #000;
-  background-image: url("../img/hero.jpg");
+  background-image: url("../img/hero2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -65,11 +77,14 @@ a.btn-primary, .btn, .btn:hover {
 footer {
   background: #a14b9e;
   padding-top: 30px;
-  margin-top: 20px;
+  margin-top: 40px;
   padding-bottom: 10px;
 }
 footer a, footer a:visited, footer a:hover, footer {
 	color: #fff;
+}
+footer p, footer li {
+  font-size: 15px;
 }
 footer .fab, footer .fas {
   font-size: 30px;
