@@ -341,16 +341,10 @@ ul.nav-pills {
 
 /* Jumbotron */
 
-.jumbotron-home {
-    height: 100vh;
-    background-color: #a14b9e;
-    background-image: url('/img/jumbotron-bg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .jumbotron {
     background-color: #6f3b7e;
+    background-image: url('/img/jumbotron-bg2.png');
     border-bottom: 1px solid #f1f1f1;
     border-radius: 0;
     color: #ffffff;
@@ -374,6 +368,14 @@ ul.nav-pills {
   background: rgba(161, 75, 158, 0.8);
   border-radius: 5px;
   padding: 3rem;
+}
+
+.jumbotron-home {
+    height: 100vh;
+    background-color: #a14b9e;
+    background-image: url('/img/jumbotron-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Containers */
@@ -413,7 +415,7 @@ a.btn:hover {
     border-radius: 5px;
     margin-bottom: 10px;
     margin-top: 0px;
-    padding: 10px;
+    padding: .75rem;
     text-decoration: none !important;
     text-align: center;
 }
@@ -428,7 +430,7 @@ a.btn-outline-secondary:visited {
     background: #fbfbfb !important;
     border: 1px solid #f1f1f1 !important;
     color: #a14b9e !important;
-    padding: 1rem;
+    padding: .75rem;
     text-decoration: none;
 }
 
@@ -436,7 +438,7 @@ a.btn-outline-secondary:hover {
     background: #a14b9e !important;
     border: 1px solid #a14b9e !important;
     color: #ffffff !important;
-    padding: 1rem;
+    padding: .75rem;
     text-decoration: none;
 }
 

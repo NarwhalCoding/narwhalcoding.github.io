@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Contact
 description: Contact NarwhalCoding.
 excerpt: Contact NarwhalCoding.
