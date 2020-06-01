@@ -22,7 +22,7 @@ name: NarwhalCoding
 email: gmail.com
 description: Where kids join together and code.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.narwhalcoding.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://narwhalcoding.com" # the base hostname & protocol for your site, e.g. http://example.com
 email: codingnarwhal@gmail.com
 facebook_link: https://www.facebook.com/narwhalcoding
 twitter_username: narwhalcoding
