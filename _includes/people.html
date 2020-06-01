@@ -1,0 +1,15 @@
+<div class="card-group">
+    {% for author in site.people %}
+    <div class="col-lg-4 col-md-3 col-sm-6 col-xs-12">
+        <div class="card">
+            <div class="card-body">
+                <a href="{{ author.url }}" class="stretched-link"><img class="" src="{{ site.url }}/img/people/{{ author.image }}" alt="{{ author.name }}"></a>
+                <h3 class="card-title"><a href="{{ author.url }}">{{ author.name }}</a></h3>
+                <p class="card-text">{{ author.bio_short }}</p>
+            </div>
+            <div class="card-footer">
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>

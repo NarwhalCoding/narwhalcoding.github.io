@@ -1,0 +1,21 @@
+---
+layout: default
+title: Classes
+description:
+excerpt:
+---
+<div class="container">
+    <div class="row">
+        <div class="card-deck">
+            {% for item in site.classes %}
+            <div class="card">
+                <div class="card-body icon">
+                    <a href="{{ item.url }}" class="stretched-link"><i class="fas fa-laptop-code"></i></a>
+                    <h3 class="h3"><a href="{{ item.url }}">{{ item.title }}</a></h3>
+                    <p class="card-text">{{ item.excerpt }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

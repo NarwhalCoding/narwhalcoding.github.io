@@ -1,0 +1,125 @@
+---
+layout: wrapper
+---
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 people-img">
+                {% if page.author %}
+                {% assign author = site.data.people[page.author] %}
+                <img src="{{ site.url }}/img/people/{{ author.image }}" alt="{{ author.name }}" title="{{ author.name }}">
+                {% endif %}
+            </div>
+            <div class="col-md-10">
+                <h1 class="display-4">{{ page.name }}</h1>
+                {% if page.author %}
+                {% assign author = site.data.people[page.author] %}
+                <p class="lead">{{ author.bio_short }}</p>
+                {% endif %}
+                {% if page.author %}
+                {% assign author = site.data.people[page.author] %}
+                <p class="people-social">
+                    {% if author.linkedin %}
+                    <a href="{{ author.linkedin }}"><i class="fab fa-linkedin"></i></a>
+                    {% endif %}
+                    {% if author.github %}
+                    <a href="https://github.com/{{ author.github }}"><i class="fab fa-github"></i></a>
+                    {% endif %}
+                    {% if author.twitter %}
+                    <a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-twitter"></i></a>
+                    {% endif %}
+                </p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <!--
+            <h2>Expertise</h2>
+            <ul class="nav nav-pills">
+                {% for item in site.people %}
+                <li class="nav-item">{{ author.expertise }}</li>
+                {% endfor %}
+            </ul>
+-->
+            {% if author.bio %}
+            <h2>About</h2>
+            {{ author.bio | markdownify }}
+            {% endif %}
+        </div>
+        <div class="col-md-4">
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Training</h2>
+            <div class="card-deck">
+                {% assign sorted = site.training | sort: 'date' | reverse | where: 'author', page.author %}
+                {% for item in sorted %}
+                <div class="card">
+                    <div class="card-body icon">
+                        <a href="{{ item.url }}"><i class="fas fa-certificate"></i></a>
+                        <h3>
+                            <a href="{{ item.url }}" class="stretched-link">
+                                {{ item.title }}
+                            </a>
+                        </h3>
+                        <a class="btn btn-primary" href="{{ item.url }}" role="button">Learn more</a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <h2>Coaching</h2>
+            <div class="card-deck">
+                {% assign sorted = site.coaching | sort: 'date' | reverse | where: 'author', page.author %}
+                {% for item in sorted %}
+                <div class="card">
+                    <div class="card-body icon">
+                        <a href="{{ item.url }}"><i class="fas fa-shapes"></i></a>
+                        <h3>
+                            <a href="{{ item.url }}" class="stretched-link">
+                                {{ item.title }}
+                            </a>
+                        </h3>
+                        <a class="btn btn-primary" href="{{ item.url }}" role="button">Learn more</a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <h2>Consulting</h2>
+            <div class="card-deck">
+                {% assign sorted = site.consulting | sort: 'date' | reverse | where: 'author', page.author %}
+                {% for item in sorted %}
+                <div class="card">
+                    <div class="card-body icon">
+                        <a href="{{ item.url }}"><i class="fas fa-lightbulb"></i></a>
+                        <h3>
+                            <a href="{{ item.url }}" class="stretched-link">
+                                {{ item.title }}
+                            </a>
+                        </h3>
+                        <a class="btn btn-primary" href="{{ item.url }}" role="button">Learn more</a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <h2>Help</h2>
+            {% assign sorted = site.help | sort: 'date' | reverse | where: 'author', page.author %}
+            {% for item in sorted %}
+            <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+            <p class="text-muted">Posted: {{ item.date | date: "%B %-d, %Y, %r %Z" }}</p>
+            {% endfor %}
+            <h2>Posts</h2>
+            {% assign filtered_posts = site.posts | where: 'author', page.author %}
+            {% for post in filtered_posts %}
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <p class="text-muted">{{ post.date | date: "%B %-d, %Y" }}</p>
+            {% endfor %}
+        </div>
+    </div>
+</div>

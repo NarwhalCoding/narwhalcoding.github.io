@@ -1,0 +1,14 @@
+docs_list_title: nav
+docs:
+
+- title: About
+  url: /about/
+
+- title: Classes
+  url: /classes/
+
+- title: News
+  url: /news/
+
+- title: Contact
+  url: /contact/

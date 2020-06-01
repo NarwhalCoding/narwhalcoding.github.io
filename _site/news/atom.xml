@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/news/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-01T10:00:18-07:00</updated><id>http://localhost:4000/news/atom.xml</id><title type="html">NarwhalCoding</title><subtitle>Where kids join together and code.</subtitle><entry><title type="html">Welcome to NarwhalCoding</title><link href="http://localhost:4000/welcome-to-narwhalcoding/" rel="alternate" type="text/html" title="Welcome to NarwhalCoding" /><published>2020-05-31T00:00:00-07:00</published><updated>2020-05-31T00:00:00-07:00</updated><id>http://localhost:4000/welcome-to-narwhalcoding</id><content type="html" xml:base="http://localhost:4000/welcome-to-narwhalcoding/">&lt;p&gt;Welcome to &lt;a href=&quot;https://narwhalcoding&quot;&gt;NarwhalCoding&lt;/a&gt;, where kids join together and code.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/classes&quot;&gt;Classes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/about&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/news&quot;&gt;News&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Connect with us:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/subscribe&quot;&gt;Newsletter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://facebook.com/narwhalcoding&quot;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/narwhalcoding&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Questions?&lt;/p&gt;
+
+&lt;p&gt;Email us at &lt;a href=&quot;mailto:codingnarwhal@gmail.com&quot;&gt;codingnarwhal@gmail.com&lt;/a&gt;.&lt;/p&gt;</content><author><name>eliasf</name></author><summary type="html">Helping public service teams build highly effective remote and telework environments.</summary></entry></feed>

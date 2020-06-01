@@ -1,0 +1,17 @@
+docs_list_title: nav_about
+docs:
+
+- title: About
+  url: /about/
+
+- title: Classes
+  url: /classes/
+
+- title: News
+  url: /news/
+
+- title: Contact
+  url: /contact/
+
+- title: Colophon
+  url: /colophon/

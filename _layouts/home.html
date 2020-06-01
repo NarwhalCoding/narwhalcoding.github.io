@@ -1,0 +1,41 @@
+---
+layout: home
+---
+{% include header.html %}
+{% include nav.html %}
+<main>
+    <div class="jumbotron jumbotron-home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="jumbotron-inner">
+                        <h1 class="display-4">{{ site.description }}</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container section">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Classes</h2>
+            </div>
+            <div class="col-md-12">
+                {% include classes.html %}
+                <p><a href="/classes/" class="btn btn-outline-secondary">Classes</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>News</h2>
+            </div>
+            <div class="col-md-12">
+                {% include news.html %}
+                <p><a href="/news/" class="btn btn-outline-secondary">News</a></p>
+            </div>
+        </div>
+    </div>
+</main>
+{% include footer.html %}

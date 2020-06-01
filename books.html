@@ -1,0 +1,19 @@
+---
+layout: default
+title: Books
+description: Recommended reading.
+excerpt: 
+permalink: /books/
+---
+<div class="card-deck books">
+    {% for item in site.data.books.docs %}
+    <div class="card">
+        <div class="card-body">
+            <a href="{{ item.url }}"><img class="card-img-top" src="{{ site.url }}/img/books/{{ item.img }}" alt="{{ item.title }}"></a>
+            <h5 class="h5"><a href="{{ item.url }}">{{ item.title }}</a></h5>
+            <p><small class="">{{ item.author }}</small></p>
+            <p class="card-text">{{ item.excerpt }}</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
