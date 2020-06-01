@@ -451,6 +451,10 @@ label {
     padding-bottom: .5rem;
 }
 
+.form-control-lg {
+    padding: 1.65rem;
+}
+
 /* Footer */
 
 .footer {

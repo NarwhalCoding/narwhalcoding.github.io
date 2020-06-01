@@ -19,7 +19,7 @@ Welcome to [NarwhalCoding](https://narwhalcoding.com), where kids join together 
 
 Connect with us:
 
-* [Newsletter](/subscribe)
+* [Subscribe](/subscribe)
 * [Facebook](https://facebook.com/narwhalcoding)
 * [Twitter](https://twitter.com/narwhalcoding)
 
