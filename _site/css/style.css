@@ -43,7 +43,8 @@ h3 {
 /* News */
 
 .news p,
-.news li {
+.news li,
+label {
     font-size: 1.25rem;
 }
 
@@ -70,6 +71,7 @@ p.byline {
 
 .card a,
 .card a:visited,
+.card a:hover,
 .card a:active {
     color: #fff;
     text-decoration: none;
@@ -181,8 +183,9 @@ h4 a:visited {
     margin-bottom: 1.5rem;
     padding-bottom: 1rem;
 }
-.post-bio p {
-}
+
+.post-bio p {}
+
 /* Breadcrumb */
 
 .breadcrumb {
@@ -365,9 +368,9 @@ ul.nav-pills {
 }
 
 .jumbotron-inner {
-  background: rgba(161, 75, 158, 0.8);
-  border-radius: 5px;
-  padding: 3rem;
+    background: rgba(161, 75, 158, 0.8);
+    border-radius: 5px;
+    padding: 3rem;
 }
 
 .jumbotron-home {
@@ -440,6 +443,12 @@ a.btn-outline-secondary:hover {
     color: #ffffff !important;
     padding: .75rem;
     text-decoration: none;
+}
+
+/* Forms */
+
+label {
+    padding-bottom: .5rem;
 }
 
 /* Footer */

@@ -11,7 +11,7 @@ permalink:
 
 ---
 
-Welcome to [NarwhalCoding](https://narwhalcoding), where kids join together and code.
+Welcome to [NarwhalCoding](https://narwhalcoding.com), where kids join together and code.
 
 * [Classes](/classes)
 * [About](/about)

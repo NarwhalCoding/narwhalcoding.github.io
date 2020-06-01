@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/classes/scratch-101/</loc>
+<loc>http://localhost:4000/classes/advanced-scratch/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/classes/scratch-for-beginners/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/welcome-to-narwhalcoding/</loc>
@@ -39,6 +42,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/people/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/request/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/resources/</loc>
