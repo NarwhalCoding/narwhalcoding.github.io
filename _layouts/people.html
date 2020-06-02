@@ -11,7 +11,7 @@ layout: wrapper
                 {% endif %}
             </div>
             <div class="col-md-10">
-                <h1 class="display-4">{{ page.name }}</h1>
+                <h1>{{ page.name }}</h1>
                 {% if page.author %}
                 {% assign author = site.data.people[page.author] %}
                 <p class="lead">{{ author.bio_short }}</p>
