@@ -8,7 +8,7 @@ excerpt: Learn the basics of Scratch.
 author: eliasf
 service_about: 
 cost: $50
-form: /request
+form: https://www.signupgenius.com/go/20F0D45ADAF2FA1F49-scratch
 categories:
   - scratch
   - kids
