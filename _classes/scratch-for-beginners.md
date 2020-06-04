@@ -23,4 +23,4 @@ format:
 
 ---
 
-In this class you will learn the basics of [Scratch](https://scratch.mit.edu/). Scratch is an free, online block coding program hosted by MIT that allows you to create games and animations. It is great for kids who want to start learning how to code.
+In this class you will learn the basics of [Scratch](https://scratch.mit.edu/). Scratch is a free, online block coding program hosted by MIT that allows you to create games and animations. It is great for kids who want to start learning how to code.
