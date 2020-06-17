@@ -67,7 +67,11 @@ layout: wrapper
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <p><a class="btn btn-primary btn-lg" href="{{ page.form }}" role="button">Sign up</a> &nbsp; Questions? <a href="{{ site.url }}/contact">Contact us</a></p>
+            {% if page.form %}
+            <div class="request">
+                <p><a class="btn btn-primary btn-lg" href="{{ page.form }}" role="button">{% if page.form_text %}{{ page.form_text }}{% else %}Sign up{% endif %}</a> &nbsp; Questions? <a href="{{ site.url }}/contact">Contact us</a></p>
+            </div>
+            {% endif %}
         </div>
     </div>
 </div>
