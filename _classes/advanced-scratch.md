@@ -18,8 +18,9 @@ who:
 what_you_learn:
   - Advanced Scratch techniques
 format:
-  - Classes will be an hour each day for five days (Monday through Friday)
-  - Hosted via Zoom
+  - One hour each day for five days (Monday through Friday)
+  - Hosted via [Google Meet](https://meet.google.com/)
+  - "See also: [How it works](/how-it-works)"
 
 ---
 

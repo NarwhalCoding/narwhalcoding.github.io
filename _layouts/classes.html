@@ -12,6 +12,13 @@ layout: wrapper
                 <li>{{ item }}</li>
                 {% endfor %}
             </ul>
+            <h2>What you need</h2>
+            <ul>
+                <li>A computer that can connect to the internet</li>
+                <li>A <a href="https://scratch.mit.edu/join">Scratch account</a> (free)</li>
+                <li>Headphones (optional)</li>
+            </ul>
+
             <h2>What you learn</h2>
             <ul class="fa-ul">
                 {% for item in page.what_you_learn %}
@@ -21,7 +28,7 @@ layout: wrapper
             <h2>Format</h2>
             <ul>
                 {% for item in page.format %}
-                <li>{{ item }}</li>
+                <li>{{ item | markdownify }}</li>
                 {% endfor %}
             </ul>
             {% if page.cost %}

@@ -41,6 +41,9 @@
 <loc>http://localhost:4000/feedback/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/how-it-works/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/</loc>
 </url>
 <url>

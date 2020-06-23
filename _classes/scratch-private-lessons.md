@@ -19,8 +19,9 @@ who:
 what_you_learn:
   - Basic and/or advanced Scratch
 format:
-  - Classes will be an hour each day for three days
-  - Hosted via Zoom
+  - One hour each day for three days
+  - Hosted via [Google Meet](https://meet.google.com/)
+  - "See also: [How it works](/how-it-works)"
 
 ---
 
