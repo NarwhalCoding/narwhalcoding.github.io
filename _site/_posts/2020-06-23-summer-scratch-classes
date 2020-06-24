@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="Helping public service teams build highly effective remote and telework environments.">
+    <meta name="description" content="Elias is hosting virtual Scratch classes this summer.">
     <meta name="author" content="NarwhalCoding">
     <link rel="apple-touch-icon" sizes="57x57" href="http://localhost:4000/img/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="http://localhost:4000/img/favicon/apple-icon-60x60.png">
@@ -31,10 +31,10 @@
     <meta property="og:image" content="http://localhost:4000/img/avatar.png">
     <meta property="og:image:height" content="630">
     <meta property="og:image:width" content="630">
-    <meta property="og:title" content="Welcome to NarwhalCoding">
-    <meta property="og:description" content="Helping public service teams build highly effective remote and telework environments.">
+    <meta property="og:title" content="Virtual Scratch classes now available">
+    <meta property="og:description" content="Elias is hosting virtual Scratch classes this summer.">
     <meta property="og:url" content="http://localhost:4000">
-    <title>Welcome to NarwhalCoding - NarwhalCoding</title>
+    <title>Virtual Scratch classes now available - NarwhalCoding</title>
     <!-- Bootstrap core JavaScript -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -84,7 +84,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1>Welcome to NarwhalCoding</h1>
+                    <h1>Virtual Scratch classes now available</h1>
                 </div>
             </div>
         </div>
@@ -95,8 +95,8 @@
                 
                 
                 <div class="people">
-                    <img src="http://localhost:4000/img/people/eliasf.png" alt="Elias F." title="Elias F.">
-                    <p class="text-muted byline">Elias F.</p>
+                    <img src="http://localhost:4000/img/people/narwhalcoding.png" alt="NarwhalCoding" title="NarwhalCoding">
+                    <p class="text-muted byline">NarwhalCoding</p>
                 </div>
                 <p class="people-social">
                     
@@ -115,7 +115,7 @@
                 
                 <div class="people">
                     <p class="text-muted byline">
-                        May 31, 2020</p>
+                        June 23, 2020</p>
                 </div>
                 <div class="post-categories">
                     
@@ -127,36 +127,31 @@
                         
                         <li class="nav-item">
                             <a href="/categories/#coding">Coding</a></li>
+                        &nbsp;
+                        
+                        <li class="nav-item">
+                            <a href="/categories/#scratch">Scratch</a></li>
                         
                         
                     </ul>
                 </div>
             </div>
             <div class="col-md-9">
-                <p>Welcome to <a href="https://narwhalcoding.com">NarwhalCoding</a>, where kids join together and code.</p>
+                Elias is hosting virtual Scratch classes this summer.
 
-<ul>
-  <li><a href="/classes">Classes</a></li>
-  <li><a href="/about">About</a></li>
-  <li><a href="/news">News</a></li>
-</ul>
+* [Scratch for Beginners](https://narwhalcoding.com/classes/scratch-for-beginners/)
+* [Advanced Scratch](https://narwhalcoding.com/classes/advanced-scratch/)
+* [Scratch Private Lessons](https://narwhalcoding.com/classes/scratch-private-lessons/)
 
-<p>Connect with us:</p>
+Please feel free to email [codingnarwhal@gmail.com](codingnarwhal@gmail.com) if you have any questions.
 
-<ul>
-  <li><a href="/subscribe">Subscribe</a></li>
-  <li><a href="https://facebook.com/narwhalcoding">Facebook</a></li>
-  <li><a href="https://twitter.com/narwhalcoding">Twitter</a></li>
-</ul>
+Thank you!
 
-<p>Questions?</p>
-
-<p>Email us at <a href="mailto:codingnarwhal@gmail.com">codingnarwhal@gmail.com</a>.</p>
-
+Team [NarwhalCoding](https://narwhalcoding.com)
                 <div class="post-bio">
                     
                     <span class="text-muted byline">
-                        <p>Hi! My name is Elias, and I am going into 7th grade. I started a coding club called <a href="https://narwhalcoding.com">NarwhalCoding</a>, where kids of different levels come together and help each other learn to code. It became so popular that we started hosting meetings at the Lafayette Library, and it was often a full room. Due to COVID-19, the meet-ups are indefinitely on hold, however, I am hosting <a href="/classes/">virtual coding classes</a> over the summer.</p>
+                        <p>Where kids join together and code.</p>
 
                     </span>
                 </div>

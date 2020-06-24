@@ -389,6 +389,12 @@ ul.nav-pills {
     padding-bottom: 2rem;
 }
 
+.subscribe {
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+}
+
 /* Guide */
 
 .resources h1 {
@@ -485,8 +491,8 @@ label {
 .footer .fas,
 .footer .fab {
     color: #ffffff;
-    font-size: 1.5rem;
-    margin: 0 1rem 0 0;
+    font-size: 2.5rem;
+    margin: 0 1.5rem 0 0;
 }
 
 .footer p {

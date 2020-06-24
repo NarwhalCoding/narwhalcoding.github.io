@@ -1,16 +1,16 @@
 <footer>
     <div class="footer">
+        <div class="container subscribe">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Subscribe</h2>
+                    {% include subscribe.html %}
+                </div>
+            </div>
+        </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <h2>About</h2>
-                    <ul>
-                        {% for item in site.data.about.docs %}
-                        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <h2>Connect</h2>
                     <p>
                         {% if site.email %}
@@ -33,9 +33,13 @@
                         {% endif %}
                     </p>
                 </div>
-                <div class="col-md-4">
-                    <h2>License</h2>
-                    <p><a href="https://creativecommons.org/licenses/by-sa/4.0/)">Creative Commons Attribution-ShareAlike 4.0 International License</a></p>
+                <div class="col-md-6">
+                    <h2>About</h2>
+                    <ul>
+                        {% for item in site.data.about.docs %}
+                        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+                        {% endfor %}
+                    </ul>
                 </div>
             </div>
         </div>
