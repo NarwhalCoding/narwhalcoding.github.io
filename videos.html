@@ -4,10 +4,10 @@ title: Videos
 description: NarwhalCoding videos.
 excerpt: NarwhalCoding videos.
 ---
-{% for video in site.data.videos %}
 <div class="alert-info">
     <p><a href="{{ site.youtube_link }}"><i class="fab fa-youtube"></i> Subscribe to the NarwhalCoding YouTube channel</a></p>
 </div>
+{% for video in site.data.videos %}
 <div class="section">
     <h2>{{ video.title }}</h2>
     {{ video.embed }}
